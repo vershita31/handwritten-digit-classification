@@ -24,6 +24,14 @@ The notebook builds a classification model using Logistic Regression and evaluat
 
 The project uses the **Scikit-learn Digits Dataset**, which consists of 1,797 images of handwritten digits.
 
+#### Project Workflow
+1. Load digits dataset
+2. Split into training and testing data
+3. Train Logistic Regression model
+4. Evaluate using accuracy, confusion matrix, and classification report
+5. Train the KNN model
+6. Compare model performance
+
 ## Results
 
 Both models achieve very high accuracy due to the clean and structured nature of the dataset. The KNN model achieves around **99% accuracy** on the test data.
